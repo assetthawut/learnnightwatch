@@ -1,35 +1,35 @@
-17:16:22.413 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
-17:16:22.416 INFO - Launching a standalone Selenium Server
-2017-08-31 17:16:22.475:INFO::main: Logging initialized @887ms to org.seleniumhq.jetty9.util.log.StdErrLog
-17:16:22.626 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-17:16:22.627 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+17:37:16.282 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+17:37:16.283 INFO - Launching a standalone Selenium Server
+2017-08-31 17:37:16.323:INFO::main: Logging initialized @690ms to org.seleniumhq.jetty9.util.log.StdErrLog
+17:37:16.446 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:37:16.447 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-17:16:22.627 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-17:16:22.628 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-17:16:22.630 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+17:37:16.447 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:37:16.448 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:37:16.450 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
  registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
-2017-08-31 17:16:22.759:INFO:osjs.Server:main: jetty-9.4.3.v20170317
-2017-08-31 17:16:22.891:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
-2017-08-31 17:16:23.113:INFO:osjs.AbstractConnector:main: Started ServerConnector@5f2108b5{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2017-08-31 17:16:23.115:INFO:osjs.Server:main: Started @1527ms
-17:16:23.115 INFO - Selenium Server is up and running
-17:16:23.835 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-17:16:23.901 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Demo, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
-17:16:23.923 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Demo, browserName=firefox, javascriptEnabled=true, platform=ANY}]
-1504174584942	geckodriver	INFO	Listening on 127.0.0.1:48996
-1504174585697	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
-1504174587134	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getJavaScriDpitr  e:r:r olri:n er esource://gre/mo7d0u"l e sd/aAtdad:o nnoM]a nStaagcke trr.acje:s mFi,l elUine 1657t: NiSl_EsR_RgOeR_tNDOTi_rIN(IT)IA@LrIZeEsDo:u rAcded:o/n/Mgarneag/emro diusl enso/t FiniitlieaUltizields.
-jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:674 < startup()@resource://gre/modules/AddonManager.jsm:837 < startup()@resource://gre/modules/AddonManager.jsm:3145 < observe()@resource://gre/components/addonManager.js:65
-1504174590560	Marionette	INFO	Listening on port 60467
+2017-08-31 17:37:16.526:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-08-31 17:37:16.594:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
+2017-08-31 17:37:16.766:INFO:osjs.AbstractConnector:main: Started ServerConnector@5f2108b5{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-08-31 17:37:16.767:INFO:osjs.Server:main: Started @1134ms
+17:37:16.767 INFO - Selenium Server is up and running
+17:37:17.479 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+17:37:17.536 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Demo, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+17:37:17.558 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Demo, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+1504175838460	geckodriver	INFO	Listening on 127.0.0.1:30121
+1504175839208	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1657: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1504175840359	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:674 < startup()@resource://gre/modules/AddonManager.jsm:837 < startup()@resource://gre/modules/AddonManager.jsm:3145 < observe()@resource://gre/components/addonManager.js:65
+1504175843195	Marionette	INFO	Listening on port 52779
 JavaScript error: resource://gre/modules/AddonManager.jsm, line 2572: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
-17:16:31.125 INFO - Detected dialect: W3C
-17:16:31.165 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Demo, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
-17:16:31.212 INFO - Executing: [get: http://www.google.co.th])
-17:16:33.055 INFO - Done: [get: http://www.google.co.th]
-17:16:33.069 INFO - Executing: [find elements: By.cssSelector: body])
-17:16:33.146 INFO - Done: [find elements: By.cssSelector: body]
-17:16:33.165 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on ANY (1e99ab6a-3c3f-4995-916c-f9286f739de6)] -> css selector: body]])
-17:16:33.341 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on ANY (1e99ab6a-3c3f-4995-916c-f9286f739de6)] -> css selector: body]]
-17:16:33.354 INFO - Executing: [delete session: f01c273c-0d8b-4984-a5bd-2f23d5a50e21])
-1504174593363	Marionette	INFO	New connections will no longer be accepted
-17:16:34.141 INFO - Done: [delete session: f01c273c-0d8b-4984-a5bd-2f23d5a50e21]
+17:37:23.505 INFO - Detected dialect: W3C
+17:37:23.542 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Demo, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+17:37:23.588 INFO - Executing: [get: http://www.google.co.th])
+17:37:25.525 INFO - Done: [get: http://www.google.co.th]
+17:37:25.556 INFO - Executing: [find elements: By.cssSelector: body])
+17:37:25.656 INFO - Done: [find elements: By.cssSelector: body]
+17:37:25.669 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on ANY (8e3e62b5-ee1f-46a2-bf04-6d62fbbfb74d)] -> css selector: body]])
+17:37:25.930 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on ANY (8e3e62b5-ee1f-46a2-bf04-6d62fbbfb74d)] -> css selector: body]]
+17:37:25.949 INFO - Executing: [delete session: 16b086a5-74d7-48b0-a5a5-94c69d132d38])
+1504175845958	Marionette	INFO	New connections will no longer be accepted
+17:37:26.807 INFO - Done: [delete session: 16b086a5-74d7-48b0-a5a5-94c69d132d38]
